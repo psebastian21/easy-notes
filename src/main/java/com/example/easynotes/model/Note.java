@@ -11,6 +11,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
+@SuppressWarnings("serial")
 @Entity
 @Table
 @EntityListeners(AuditingEntityListener.class)
